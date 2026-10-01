@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,8 @@
     "esbuild@0.28.2": true
   },
   "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "dotenv": "^18.0.5",
     "zod": "^4.6.5"
   }
 }
